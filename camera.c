@@ -162,7 +162,7 @@ void InitDefaultReg(void) {
     WriteReg(REG_COM5, 0x61);
     WriteReg(REG_COM6, 0x4b);
     WriteReg(0x16, 0x02);
-    WriteReg(REG_MVFP, 0x07);
+    WriteReg(REG_MVFP, 0x17);		// VFlip on
     WriteReg(0x21, 0x02);
     WriteReg(0x22, 0x91);
     WriteReg(0x29, 0x07);
